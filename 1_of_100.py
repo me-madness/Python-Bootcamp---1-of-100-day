@@ -28,3 +28,8 @@ print( len( input("What is your name? ") ) )
 
 # Seventh task
 name = input("What is your name? ")
+name = "Jack"
+print(name)
+
+name = "Angela"
+print(name)
