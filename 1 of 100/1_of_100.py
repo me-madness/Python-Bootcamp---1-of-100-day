@@ -47,3 +47,8 @@ b = c
 
 print("a = " + b)
 print("b = " + a)
+
+# Nine task
+user_name = input("What is your name? ")
+length = len(name)
+print(length)
