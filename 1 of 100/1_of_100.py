@@ -36,3 +36,14 @@ print(name)
 name = input("What is your name? ")
 length = len(name)
 print(length)
+
+# Eith task 
+a = input("a:")
+b = input("b:")
+
+c = a
+a = b
+b = c
+
+print("a = " + b)
+print("b = " + a)
