@@ -34,5 +34,9 @@ PEMDAS
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 
-result = int(weight) / (int(height) * int(height))
+#First way
+result = int(weight) / (float(height) ** 2)
+
+# Second way
+result = int(weight) / (float(height) * float(height))
 print(result)
