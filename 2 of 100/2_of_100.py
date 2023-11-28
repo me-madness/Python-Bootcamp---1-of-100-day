@@ -41,3 +41,12 @@ result = int(weight) / (float(height) ** 2)
 result = int(weight) / (float(height) * float(height))
 print(int(result))
 print(f"{result:.2f}")
+
+# Number Manipulation and f-string in Python
+score = 0
+height = 1.8
+isWinning = True
+
+print("Your score is " + str(score))
+print(f"Your score is {score}, your heght is {height}, you are winning is {isWinning}")
+
