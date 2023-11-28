@@ -30,3 +30,9 @@ PEMDAS
 +
 -
 
+# Interactive Coding Exercise - BMI Calculator
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+result = int(weight) / (int(height) * int(height))
+print(result)
