@@ -50,3 +50,13 @@ isWinning = True
 print("Your score is " + str(score))
 print(f"Your score is {score}, your heght is {height}, you are winning is {isWinning}")
 
+# Interactive Coding Exercise - Life in weeks
+age = input("What is your current age?")
+years = 90 - int(age)
+
+days_left = years * 365
+weeks_left = days_left // 7
+months_left = years / 12
+print(f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left.")
+
+#
