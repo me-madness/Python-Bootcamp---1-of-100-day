@@ -16,3 +16,9 @@ b = int(two_digit_number[1])
 print(a + b)
 
 # Mathematical Operations in Python
+3 + 5
+3 - 5
+3 * 5
+3 / 5
+3 ** 5
+3 // 5
