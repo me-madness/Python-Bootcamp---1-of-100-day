@@ -39,4 +39,5 @@ result = int(weight) / (float(height) ** 2)
 
 # Second way
 result = int(weight) / (float(height) * float(height))
-print(result)
+print(int(result))
+print(f"{result:.2f}")
