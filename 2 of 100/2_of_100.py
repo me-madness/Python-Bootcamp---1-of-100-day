@@ -59,4 +59,10 @@ weeks_left = days_left // 7
 months_left = years / 12
 print(f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left.")
 
-#
+# Welcome to the tip calculator
+bill = input("What was the total bill? ")
+tip = input("What percentage tip would you like to give? 10, 12, 0r 15? " )
+people = input("How many people to split the bill? ")
+result = (float(bill) + int(tip)) / people
+
+print(f" YEach people should pay: {result:.2f}")
