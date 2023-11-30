@@ -34,20 +34,32 @@ else:
 # Interactive Coding Exercise BMI        
 height = float(input("Enter your height in m:"))
 weight = float(input("Enter your weight in kg:"))
-result = weight / (height ** 2)
+result = round(weight / (height ** 2))
 
 if result < 18.5:
-    print("They are underweight.")
+    print(f"Your bmi is {result}, they are underweight.")
 elif result < 25:
-    print("They have a normal weight.")    
+    print(f"Your bmi is {result}, they have a normal weight.")    
 elif result < 30:
-    print("They are overweight.")    
+    print(f"Your bmi is {result}, they are overweight.")    
 elif result < 35:
-    print("They are obese.")
+    print(f"Your bmi is {result}, they are obese.")
 else:
-    print("They are clinically obese.")        
+    print(f"Your bmi is {result}, they are clinically obese.")        
  
-# Interactive Coding Exercise Lea
+# Interactive Coding Exercise Leap Year Exercise
+year = int(input("Which year do you want to check?"))
+ 
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Leap year")
+        else:
+            print("Not leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not leap year")
 
 # Multiple If statement in Succession 
 

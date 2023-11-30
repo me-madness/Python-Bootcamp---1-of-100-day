@@ -48,7 +48,7 @@ height = 1.8
 isWinning = True
 
 print("Your score is " + str(score))
-print(f"Your score is {score}, your heght is {height}, you are winning is {isWinning}")
+print(f"Your score is {score}, your height is {height}, you are winning is {isWinning}")
 
 # Interactive Coding Exercise - Life in weeks
 age = input("What is your current age?")
