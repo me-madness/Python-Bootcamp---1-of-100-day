@@ -169,3 +169,4 @@ else:
     print(f"Your score is {love_score}") 
        
 # Day 3 Project Treasure Island 
+# 3_of_100_project_treasure_island.py
