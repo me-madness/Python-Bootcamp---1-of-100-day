@@ -25,4 +25,6 @@ else:
     
 # Python List
 
-    
+state_of_america = ["Delaware", "Pensilvania", "New Jersey", "Georgia"]  
+
+print(state_of_america[1])
