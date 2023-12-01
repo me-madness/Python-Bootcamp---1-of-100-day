@@ -10,3 +10,9 @@ print(random_float)
 
 love_score = random.randint(1, 10)
 print(f"Your love score is {love_score}")
+
+# Random
+import random
+ 
+test_seed = int(input("Create a seed number: "))
+random.seed(test_seed)
