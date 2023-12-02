@@ -31,3 +31,10 @@ print(state_of_america[1])
 
 # Interactive Coding Exercise - Banker Roulette - Who will pay the bill
 
+import random 
+
+test_seed = int(input("Create a seed number: "))
+random.seed(test_seed)
+
+namesAsCSV = input("Give me everybody's names separet by a comma. ")
+
