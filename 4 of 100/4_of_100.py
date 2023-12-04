@@ -53,3 +53,13 @@ random_choice = random.randint(0, num_items - 1)
 person_who_will_pay = names[random_choice]
 
 print(f"{person_who_will_pay} is going to buy the meal today!")
+
+# Working with nested lists
+
+state_of_america = ["Delaware", "Pensilvania", "New Jersey", "Georgia"]  
+
+state_of_america[1] = "Pencilvania"
+
+state_of_america.extend(["Angelaland", "Jack Bauer Land"])
+
+print(state_of_america[1])
