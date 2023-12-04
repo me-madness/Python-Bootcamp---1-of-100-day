@@ -25,7 +25,11 @@ else:
     
 # Python List
 
-state_of_america = ["Delaware", "Pensilvania", "New Jersey", "Georgia"]  
+state_of_america = ["Delaware", "Pensilvania", "New Jersey", "Georgia"]   
+
+state_of_america[1] = "Pencilvania"
+
+state_of_america.extend(["Angelaland", "Jack Bauer Land"])
 
 print(state_of_america[1])
 
@@ -58,8 +62,12 @@ print(f"{person_who_will_pay} is going to buy the meal today!")
 
 state_of_america = ["Delaware", "Pensilvania", "New Jersey", "Georgia"]  
 
-state_of_america[1] = "Pencilvania"
+num_of_state =len(state_of_america)
+print(state_of_america[num_of_state])
 
-state_of_america.extend(["Angelaland", "Jack Bauer Land"])
+# dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
 
-print(state_of_america[1])
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Celery"]
+vegetables= ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables]
