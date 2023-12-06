@@ -8,7 +8,7 @@ print(game_images[user_choise])
 
 
 computer_choice = random.randint(0, 2)
-print(f"Computer chose {computer_choice}")
+print(f"Computer chose:")
 
 if user_choice >= 3 or user_choice < 0:
     print("You typed an invalid number, you lose!")    
