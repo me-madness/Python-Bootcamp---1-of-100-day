@@ -6,7 +6,7 @@ for fruit in fruits:
     print(fruit + "Pie")
 print(fruits)    
 
-# Exercise - Average Height  
+## Exercise - Average Height  
 # First way of Exercise Average Height
 
 student_heights = input("Input a list of student heights ").split()
@@ -27,10 +27,23 @@ numbers_of_students = len(student_heights)
 average = round(total_height / numbers_of_students)
 print(average)
 
-# Exercise - High Score
+## Exercise - High Score
+# First way of the task
 
 student_scores = input("Input a list of student heights ").split()
-for n in range(len(student_scores)):
-    student_scores[n] = int(student_scores[n])
-print(student_scores)    
+for n in student_scores:
+    if x < n:
+        x = n
+print(f"The Highest score in the class is {x}")
+   
+
+# Second way of the task
+
+student_scores = input("Input a list of student heights ").split()
+max_score = max(student_scores)
+print(f"The Highest score in the class is {max_score}")
+
+ 
+# 
+
     
