@@ -27,4 +27,5 @@ numbers_of_students = len(student_heights)
 average = round(total_height / numbers_of_students)
 print(average)
 
-# 
+# Exercise - High Score
+
