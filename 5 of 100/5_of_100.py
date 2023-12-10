@@ -13,9 +13,9 @@ student_heights = input("Input a list of student heights ").split()
 total_height = 0
 numbers_of_students = 0
 for n in range(len(student_heights)):
-    total_height += int(student_heights[n])
+    total_height += n
     numbers_of_students += 1
-    average = total_height / numbers_of_students
+    average = round(total_height / numbers_of_students)
 print(student_heights)      
 print(average)
 
@@ -24,5 +24,7 @@ print(average)
 student_heights = input("Input a list of student heights ").split()
 total_height = sum(student_heights)
 numbers_of_students = len(student_heights)
-average = total_height / numbers_of_students
+average = round(total_height / numbers_of_students)
 print(average)
+
+# 
