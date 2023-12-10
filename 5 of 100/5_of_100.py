@@ -29,3 +29,8 @@ print(average)
 
 # Exercise - High Score
 
+student_scores = input("Input a list of student heights ").split()
+for n in range(len(student_scores)):
+    student_scores[n] = int(student_scores[n])
+print(student_scores)    
+    
