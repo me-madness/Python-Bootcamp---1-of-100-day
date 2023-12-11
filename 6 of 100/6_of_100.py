@@ -3,7 +3,12 @@
 
 # Defining and calling python functions
 
-
+def my_function():
+    print("Hello")
+    print("Bey")
+    
+    
+    
 
 # The hurdles loop challenge
 
