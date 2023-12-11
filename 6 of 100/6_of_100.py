@@ -8,7 +8,7 @@ def my_function():
     print("Bey")
     
     
-    
+my_function()    
 
 # The hurdles loop challenge
 
