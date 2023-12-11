@@ -54,5 +54,22 @@ for number in range(1, 101):
     total += number
 print(total)  
 
-# Exercise - Adding Evens          
+## Exercise - Adding Evens          
+# First way
 
+total_even = 0
+for number in range(100):
+    if number % 2 == 0:
+        total += number
+print(total)  
+
+# Second way
+
+total_even = 0
+for number in range(2, 101, 2):
+    total += number
+print(total)
+
+# 
+
+ 
