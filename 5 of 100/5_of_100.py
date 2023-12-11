@@ -61,6 +61,7 @@ total_even = 0
 for number in range(100):
     if number % 2 == 0:
         total += number
+        
 print(total)  
 
 # Second way
@@ -70,6 +71,6 @@ for number in range(2, 101, 2):
     total += number
 print(total)
 
-# 
+# Exercise - The Fizz Buzz
 
  
