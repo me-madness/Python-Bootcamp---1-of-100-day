@@ -44,8 +44,14 @@ max_score = max(student_scores)
 print(f"The Highest score in the class is {max_score}")
 
  
-# For loop in range() function
+# For loop with range() function
 
 
+fruits = ["Apple", "Peach", "Pear"]
+for fruit in fruits:
+    print(fruit)
+    print(fruit + "Pie")
+print(fruits)    
 
-    
+for number in range(1, 11, 3):
+    print(number)     
