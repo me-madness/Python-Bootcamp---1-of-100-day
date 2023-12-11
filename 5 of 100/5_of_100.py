@@ -19,7 +19,7 @@ for n in range(len(student_heights)):
 print(student_heights)      
 print(average)
 
-# Secon way of the exercise Average Height
+# Second way of the exercise Average Height
 
 student_heights = input("Input a list of student heights ").split()
 total_height = sum(student_heights)
@@ -44,6 +44,8 @@ max_score = max(student_scores)
 print(f"The Highest score in the class is {max_score}")
 
  
-# 
+# For loop in range() function
+
+
 
     
