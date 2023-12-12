@@ -28,7 +28,12 @@ def jump():
     move()
     turn_left()  
 
-
+jump()
+jump()
+jump()
+jump()
+jump()
+jump()
 
 
 # Indentation in Python
