@@ -1,4 +1,4 @@
-# Function, Code Blocks and While Loop
+# Functions, Code Blocks and While Loops
 
 
 # Defining and calling python functions
@@ -9,6 +9,7 @@ def my_function():
     
     
 my_function()    
+
 
 # The hurdles loop challenge
 
