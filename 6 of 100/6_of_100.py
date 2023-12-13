@@ -36,7 +36,11 @@ for step in range(6):
 
 
 
+
+
 # While Loops
+
+
 
 
 
@@ -44,7 +48,11 @@ for step in range(6):
 
 
 
+
+
 # Jumping over hurdles with variables heights
+
+
 
 
 
