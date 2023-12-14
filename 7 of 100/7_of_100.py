@@ -1,4 +1,8 @@
-# for & while loop, if / else, Lists, Strings, Range, Modules
+# For & While loop, if / else, Lists, Strings, Range, Modules
+
+
+
+# How to break a Complex problem down into a Flow chart
 
 
 
