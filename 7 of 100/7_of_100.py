@@ -43,7 +43,7 @@ print(display)
 
 guess = input("Guess a letter: ").lower()
 
-for position in range(len(word_lenght):
+for position in range(word_lenght):
     letter = chosen_word(position)
     if letter == guess:
         display[position] = letter
