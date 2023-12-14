@@ -26,7 +26,7 @@ for letter in chosen_word:
         print("Wrong")
 
 
-# Challenge 2 - Replacing Blanks with
+# Challenge 2 - Replacing Blanks with Guesses
 
 
 
