@@ -80,7 +80,7 @@ def turn_right():
     turn_left()
     
 def jump():
-    turn_left():
+    turn_left()
     move()
     turn_right()
     move()
