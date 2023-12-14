@@ -5,7 +5,7 @@
 # How to break a Complex problem down into a Flow chart
 
 
-# Challenge 1 - Picking a Random word and checking answers 
+## Challenge 1 - Picking a Random word and checking answers 
 
 # Step 1 and Solution
 word_list = ["ardvark", "baboon", "camel"]
@@ -26,25 +26,37 @@ for letter in chosen_word:
         print("Wrong")
 
 
-# Challenge 2 - Replacing Blanks with Guesses
+## Challenge 2 - Replacing Blanks with Guesses
+
+import random
+
+word_list = ["ardvark", "baboon", "camel"]
+chosen_word = random.choice(word_list)
+guess = input("Guess a letter: ").lower()
+
+for letter in chosen_word:
+    if letter == guess:
+        print("Right")
+    else:
+        print("Wrong")
 
 
 
 
-# Challenge 3 -
+## Challenge 3 -
 
 
 
 
-# Challenge 4 -
+## Challenge 4 -
 
 
 
 
-# Challenge 5 -
+## Challenge 5 -
 
 
 
 
-# Hangman Project
+## Hangman Project
 # 7_of_100_project_hangman.py
