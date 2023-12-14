@@ -34,8 +34,13 @@ for step in range(6):
 
 # Indentation in Python
 
-
-
+def my_function():
+    if sky == "clear":
+        print("blue")
+    elif sky == "cloudy": 
+        print("grey")
+    print("Hello")       
+print("World")
 
 
 # While Loops
