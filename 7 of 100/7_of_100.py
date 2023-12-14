@@ -32,6 +32,11 @@ import random
 
 word_list = ["ardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
+display = []
+
+for _ in range(len(chosen_word)):
+    display += "_"
+print(display)    
 guess = input("Guess a letter: ").lower()
 
 for letter in chosen_word:
