@@ -80,7 +80,22 @@ while not at_goal():
 
 # Jumping over hurdles with variables heights
 
-
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    turn_left()
+    while front_is_clesr():
+        move()
+    turn_left()
+    
+while not at_goal():
+    if wall_in_front():
+        jump()   
+    else:
+        move()             
 
 
 
