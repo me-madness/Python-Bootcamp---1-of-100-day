@@ -32,20 +32,23 @@ import random
 
 word_list = ["ardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
-display = []
+# Testing code
+print(f"Pssst, the soution is {chosen_word}.")
 
-for _ in range(len(chosen_word)):
+display = []
+word_lenght = len(chosen_word)
+for _ in range(word_lenght):
     display += "_"
 print(display)    
+
 guess = input("Guess a letter: ").lower()
 
-for letter in chosen_word:
+for position in range(len(word_lenght):
+    letter = chosen_word(position)
     if letter == guess:
-        print("Right")
-    else:
-        print("Wrong")
+        display[position] = letter
 
-
+print(display)
 
 
 ## Challenge 3 -
