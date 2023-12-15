@@ -84,9 +84,18 @@ while not end_of_game:
         print("You win.")
 
 
-## Challenge 4 -
+## Challenge 4 - Keeping Track of the Player_s Lives
 
+import random
 
+stages = ['''
+          
+          
+          
+          
+          
+
+''']
 
 
 ## Challenge 5 -
