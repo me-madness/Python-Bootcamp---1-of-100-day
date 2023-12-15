@@ -184,7 +184,7 @@ while not end_of_game:
 import random
 
 from hangman_words import word_list
-from hangman_art import stages
+from hangman_art import stages, logo
 
 
 chosen_word = random.choice(word_list)
@@ -196,7 +196,7 @@ lives = 6
 display = []
 
 # Import logo
-
+print(logo)
 
 # Testing code
 print(f"Pssst, the solution is {chosen_word}.")
@@ -222,8 +222,11 @@ while not end_of_game:
         if lives == 0:
             end_of_game = True
             print("You lose.")    
+    
+    # Join all the element in the list and turn in into a String
     print(f"{' '.join(display)}")
     
+    # Check if user has got all letters
     if "_" not in display:
         end_of_game = True
         print("You win.")
