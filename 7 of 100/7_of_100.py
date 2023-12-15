@@ -181,6 +181,7 @@ while not end_of_game:
     
 ## Challenge 5 - Improving the User Experience
 
+from replit import clear
 import random
 
 from hangman_words import word_list
@@ -209,6 +210,9 @@ print(display)
 while not end_of_game: 
     guess = input("Guess a letter: ").lower()
 
+    # Clear the screen
+    clear()
+    
     # Check if the user has entered a letter
     if guess in display:
         print(f"You've already guessed {guess}")
@@ -222,7 +226,7 @@ while not end_of_game:
             
     # Check if user is wrong        
     if guess not in chosen_word:
-        print(f"You guessed {guess}")
+        print(f"You guessed {guess}, that's not in the word. You lose a life.")
         lives -= 1
         if lives == 0:
             end_of_game = True
