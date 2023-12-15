@@ -188,19 +188,24 @@ from hangman_art import stages
 
 
 chosen_word = random.choice(word_list)
+word_length = len(chosen_word)
+
+end_of_game = False   
+lives = 6
+
+display = []
+
+# Import logo
+
+
 # Testing code
 print(f"Pssst, the solution is {chosen_word}.")
 
-display = []
-word_length = len(chosen_word)
-
-lives = 6
-
+# Create blanks
 for _ in range(word_length):
     display += "_"
 print(display) 
 
-end_of_game = False   
 while not end_of_game: 
     guess = input("Guess a letter: ").lower()
 
