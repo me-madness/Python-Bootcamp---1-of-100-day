@@ -5,3 +5,7 @@
 # Exercise - Pain Area Calculator
 
 # Exercise - Prime Number Checker
+
+# Caesar Cipher Part 1 - Encryption
+
+#
