@@ -1,5 +1,11 @@
 # Day 8 Function with Inputs
 
+def greed():
+    print("Hello")
+    print("how do you do?")
+    print("Isn't the wather nice today?")
+
+greed()
 
 
 # Positional vs. Keyword Arguments
