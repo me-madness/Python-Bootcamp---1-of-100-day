@@ -1,16 +1,21 @@
 # Day 8 Function with Inputs
 
-def greed():
+def greet():
     print("Hello")
     print("how do you do?")
     print("Isn't the wather nice today?")
 
-greed()
+greet()
 
 
 # Positional vs. Keyword Arguments
+## Function that allows for input
 
-
+def greet_with_name(name):
+    print(f"Hello {name}")
+    print("How do ypu do {name?")
+    
+greet_with_name("Angela")    
 
 
 
