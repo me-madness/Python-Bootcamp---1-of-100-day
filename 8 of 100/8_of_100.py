@@ -21,7 +21,11 @@ greet_with_name("Angela")
 
 # Exercise - Pain Area Calculator
 
-
+def pain():
+    print(pain)
+    
+    
+pain("pain")    
 
 
 # Exercise - Prime Number Checker
