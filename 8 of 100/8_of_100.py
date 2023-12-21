@@ -30,7 +30,11 @@ pain("pain")
 
 # Exercise - Prime Number Checker
 
-
+def prime():
+    print("prime")
+    
+    
+prime()    
 
 
 # Caesar Cipher Part 1 - Encryption
