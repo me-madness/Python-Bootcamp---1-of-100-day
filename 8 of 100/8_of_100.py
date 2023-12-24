@@ -28,22 +28,39 @@ greet_with("Rangel", "Burgas")
 
 # Exercise - Pain Area Calculator
 
-
+def pain():
+    print(pain)
+    
+    
+pain("pain")    
 
 
 # Exercise - Prime Number Checker
 
-
+def prime():
+    print("prime")
+    
+    
+prime()    
 
 
 # Caesar Cipher Part 1 - Encryption
 
+def caesar_two():
+    print("caesar two")
+    
+    
+caesar_two()
 
 
 
 # Caesar Cipher Part 2 - Decryption
 
-
+def caesar_three():
+    print("caesar3")
+    
+    
+caesar_three()
 
 
 # Caesar Cipher Part 3 - Reorganising our Code
