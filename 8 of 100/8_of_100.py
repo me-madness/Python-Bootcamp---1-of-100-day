@@ -81,11 +81,10 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your mesage:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
-def caesar():
-    print("caesar two")
-    print("Caesar_one")
+def caesar(text, shift):
     
-caesar()
+    
+caesar(message = text, number = shift)
 
 
 
