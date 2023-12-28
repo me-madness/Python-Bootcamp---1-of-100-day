@@ -36,11 +36,15 @@ greet_with(name = "Rangel", locatiion = "Burgas")
 
 # Exercise - Pain Area Calculator
 
-def pain():
-    print(pain)
+import math
+
+def paint_calc(height, width, cover):
+    test_h = int(input("Height of wall: "))
+    test_w = int(input("Width of wall: "))
+    coverage = 5
     
-    
-pain("pain")    
+paint_calc(height=test_h, width=test_w, cover=coverage)
+  
 
 
 # Exercise - Prime Number Checker
@@ -81,10 +85,10 @@ def caesar_four():
 caesar_four()    
 
 # Caesar Cipher Part 4 - User Experience Improvements _ Final Touches
- def caesar_final():
-    print("final")
+def caesar_final(name):
+    print(f"{name}")
     
     
-caesar_final(name)
+caesar_final(name = "final")
 
 
