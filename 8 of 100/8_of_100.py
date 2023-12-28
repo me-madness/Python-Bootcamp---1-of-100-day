@@ -42,6 +42,8 @@ def paint_calc(height, width, cover):
     test_h = int(input("Height of wall: "))
     test_w = int(input("Width of wall: "))
     coverage = 5
+    num_of_cans = (test_h * test_w) / coverage
+    print(f"You need to buy {num_of_cans} cans of pain")
     
 paint_calc(height=test_h, width=test_w, cover=coverage)
   
