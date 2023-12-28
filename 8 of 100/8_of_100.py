@@ -59,10 +59,10 @@ def prime_checker(n):
     elif n > 1:
         for i in range(2, n):
             if (n % i) == 0:
-                print(n, "is not a prime number")
+                print(n, "it's not a prime number")
                 break
         else:
-            print(n, "is a prime number")
+            print(n, "it's a prime number")
     else:
         print(n, "it's not a prime number")
      
@@ -74,31 +74,38 @@ prime_checker(number=n)
 
 # Caesar Cipher Part 1 - Encryption
 
-def caesar_two():
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 
+    'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
+text = input("Type your mesage:\n").lower()
+shift = int(input("Type the shift number:\n"))
+
+def caesar():
     print("caesar two")
     print("Caesar_one")
     
-caesar_two()
+caesar()
 
 
 
 # Caesar Cipher Part 2 - Decryption
 
-def caesar_three():
+def caesar_two():
     print("caesar3")
     
     
-caesar_three()
+caesar_two()
 
 
 # Caesar Cipher Part 3 - Reorganising our Code
 
 
-def caesar_four():
+def caesar_three():
     print("caesar")
     
     
-caesar_four()    
+caesar_three()    
 
 # Caesar Cipher Part 4 - User Experience Improvements _ Final Touches
 def caesar_final(name):
