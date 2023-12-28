@@ -142,12 +142,18 @@ else:
 # Caesar Cipher Part 3 - Reorganising our Code
 
 
-def caesar_three():
-    print("caesar")
-    
-    
-caesar_three()    
-
+def caesar(start_text, shift_amount, cipher_direction):
+    end_text = ""
+    for letter in start_text:
+        position = alphabet.index(letter)
+        if cipher_direction == "decode":
+            shift_amount *= -1
+        new_position = position + shift_amount
+        end_text += alphabet[new_position]  
+    print(f"The {cipher_direction} text is {end_text}")   
+      
+      
+caesar(start_text = text, shift_amount = shift, cipher_direction = direction)        
 # Caesar Cipher Part 4 - User Experience Improvements _ Final Touches
 ## 8_of_100_caesar_project.py
 
