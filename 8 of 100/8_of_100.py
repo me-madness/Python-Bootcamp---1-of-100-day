@@ -153,7 +153,8 @@ def caesar(start_text, shift_amount, cipher_direction):
     print(f"The {cipher_direction} text is {end_text}")   
       
       
-caesar(start_text = text, shift_amount = shift, cipher_direction = direction)        
+caesar(start_text = text, shift_amount = shift, cipher_direction = direction)   
+     
 # Caesar Cipher Part 4 - User Experience Improvements _ Final Touches
 ## 8_of_100_caesar_project.py
 
