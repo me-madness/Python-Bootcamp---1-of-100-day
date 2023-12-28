@@ -53,11 +53,23 @@ paint_calc(height=test_h, width=test_w, cover=coverage)
 
 # Exercise - Prime Number Checker
 
-def prime():
-    print("prime")
+def prime_checker(n):
+    if n == 1:
+        print(n, "is not a prime number")
+    elif n > 1:
+        for i in range(2, n):
+            if (n % i) == 0:
+                print(n, "is not a prime number")
+                break
+        else:
+            print(n, "is a prime number")
+    else:
+        print(n, "is not a prime number")
+     
+                    
+n = int(input("Check this number: "))
+prime_checker(number=n)
     
-    
-prime()    
 
 
 # Caesar Cipher Part 1 - Encryption
