@@ -26,6 +26,14 @@ def greet_with(name, location):
 greet_with("Rangel", "Burgas")    
 
 
+def greet_with(name, location):
+    print(f"Hello {name}")
+    print(f"What is it like in {location}")
+    
+        
+greet_with(name = "Rangel", locatiion = "Burgas")    
+
+
 # Exercise - Pain Area Calculator
 
 def pain():
