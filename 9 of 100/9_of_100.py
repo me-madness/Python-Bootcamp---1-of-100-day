@@ -24,7 +24,12 @@ empty_dictionary = {}
 # print(programming_dictionary)
 
 #Edit an item in a dictionary
-programming_dictionary["Bug"] = 
+programming_dictionary["Bug"] = "A moth in your computer."
+print(programming_dictionary)
+
+#Loop through a dictionary
+for thing in programming_dictionary:
+    print(thing)
 
 #
 
