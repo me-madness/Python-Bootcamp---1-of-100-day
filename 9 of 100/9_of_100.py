@@ -9,6 +9,7 @@ programming_dictionary = {
     "Function": "a piece of code that you can easily call over and over again."
 }
 
+print(programming_dictionary["Bug"])
 
 
 
