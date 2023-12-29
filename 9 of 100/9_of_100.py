@@ -20,8 +20,8 @@ print(programming_dictionary)
 empty_dictionary = {}
 
 #Wipe an existing dictionary
-# programming_dictionary = {}
-# print(programming_dictionary)
+programming_dictionary = {}
+print(programming_dictionary)
 
 #Edit an item in a dictionary
 programming_dictionary["Bug"] = "A moth in your computer."
@@ -32,19 +32,39 @@ for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
 
-#
+# Exercise - Grading Program
+
+student_scores = {
+  "Harry": 81,
+  "Ron": 78,
+  "Hermione": 99, 
+  "Draco": 74,
+  "Neville": 62,
+}
+
+# 🚨 Don't change the code above 👆
+
+#TODO-1: Create an empty dictionary called student_grades.
+
+
+#TODO-2: Write your code below to add the grades to student_grades.👇
+
+    
+
+# 🚨 Don't change the code below 👇
+
+
+print(student_grades)
+
+
+# Nesting Lists and Dictionaries
 
 
 
 
-#
+# Exercise - Dictionary in List
 
 
 
 
-#
-
-
-
-
-#
+# The Secret Auction Program Instructions and Flow Chart
