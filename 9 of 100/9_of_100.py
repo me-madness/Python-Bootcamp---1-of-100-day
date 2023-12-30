@@ -42,17 +42,10 @@ student_scores = {
   "Neville": 62,
 }
 
-# 🚨 Don't change the code above 👆
+student_grades = {}
 
-#TODO-1: Create an empty dictionary called student_grades.
-
-
-#TODO-2: Write your code below to add the grades to student_grades.👇
-
-    
-
-# 🚨 Don't change the code below 👇
-
+for key, value in student_scores.items():
+  student_grades.append(value)
 
 print(student_grades)
 
