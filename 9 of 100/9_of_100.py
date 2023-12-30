@@ -44,11 +44,20 @@ student_scores = {
 
 student_grades = {}
 
-for key, value in student_scores.items():
-  student_grades.append(value)
+for student in student_scores:
+  score = student_scores[student]
+  if score > 90:
+    student_grades[student] = "Outstanding"
+  elif score > 80:
+    student_grades[student] = "Exceeds Expection"
+  elif score > 70:
+    student_grades[student] = "Outstanding"
+  elif score < 70:
+    student_grades[student] = "Outstanding"
 
-print(student_grades)
-
+# for key, value in student_scores.items():
+#   student_grades.append(value)
+# print(student_grades)
 
 # Nesting Lists and Dictionaries
 
