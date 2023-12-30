@@ -55,13 +55,24 @@ for student in student_scores:
   elif score < 70:
     student_grades[student] = "Fail"
 
-# for key, value in student_scores.items():
-#   student_grades.append(value)
-# print(student_grades)
+#for key, value in student_scores.items():
+#  student_grades.append(value)
+#print(student_grades)
 
 # Nesting Lists and Dictionaries
 
+capitals = {
+  "France": "Paris",
+  "Germany`": "Berlin",
+  "Bulgaria": "Plovdiv",
+  "Luxembourg": "Luxembourg",
+}
+#Nesting a List in a Dictionary
 
+travel_log = {
+  "France": ["Pris", "Lille", "Dijon"],
+  "Germany": ["Berlin", "Hamburg", "Stuttgart"],
+}
 
 
 # Exercise - Dictionary in List
