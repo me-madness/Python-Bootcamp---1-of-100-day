@@ -51,9 +51,9 @@ for student in student_scores:
   elif score > 80:
     student_grades[student] = "Exceeds Expection"
   elif score > 70:
-    student_grades[student] = "Outstanding"
+    student_grades[student] = "Acceptable"
   elif score < 70:
-    student_grades[student] = "Outstanding"
+    student_grades[student] = "Fail"
 
 # for key, value in student_scores.items():
 #   student_grades.append(value)
