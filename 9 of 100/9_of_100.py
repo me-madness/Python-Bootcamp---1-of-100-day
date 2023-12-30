@@ -70,8 +70,8 @@ capitals = {
 #Nesting a List in a Dictionary
 
 travel_log = {
-  "France": ["Pris", "Lille", "Dijon"],
-  "Germany": ["Berlin", "Hamburg", "Stuttgart"],
+  "France": {"cities_visited": ["Paris", "Lille", "Dijon"], "total_visits": 12},
+  "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visits": 3}
 }
 
 
