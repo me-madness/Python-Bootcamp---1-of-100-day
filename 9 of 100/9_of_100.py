@@ -108,5 +108,9 @@ travel_log = [
     },
 ]
 
+add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
+print(travel_log)
+
+
 
 # The Secret Auction Program Instructions and Flow Chart
