@@ -1,14 +1,18 @@
 # Functions with Outputs
 
-def my_function(someting):
-    return someting + " is awesome!"
+def my_function():
+    return 3 * 2
+
+
+output = my_function()
+
+
+def my_function(something):
+    print("Something is", something)
 
 
 
-my_function(someting=result)
-
-
-
+my_function("new")
 # Multiple Return
 
 
