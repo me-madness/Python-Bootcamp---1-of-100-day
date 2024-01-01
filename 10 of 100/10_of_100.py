@@ -2,17 +2,20 @@
 
 def my_function():
     return 3 * 2
-
-
 output = my_function()
-
 
 def my_function(something):
     print("Something is", something)
-
-
-
 my_function("new")
+
+def format_name(f_name, l_name):
+    formated_f_name = f_name.title()
+    formated_l_name = l_name.title()
+    
+    print(f"{formated_f_name}{formated_l_name}")  
+format_name("John", "Angela")  
+
+  
 # Multiple Return
 
 
