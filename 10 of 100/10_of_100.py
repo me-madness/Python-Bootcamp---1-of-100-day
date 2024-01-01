@@ -1,5 +1,11 @@
 # Functions with Outputs
 
+def my_function(someting):
+    return someting + " is awesome!"
+
+
+
+my_function(someting=result)
 
 
 
