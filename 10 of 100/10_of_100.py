@@ -89,7 +89,22 @@ first_number = input("What's the first number?: ")
 operation = input("Pick an operation: ")
 next_number = input("What's the next number?: ")
 
+#Add
+def add(a, b):
+  a + b
 
+#Substract
+def substract(a, b):
+  return a - b
+
+#Multiply
+def multiply(a, b):
+  return a * b
+
+#Divide
+def divide(a, b):
+  return a / b
+  
 
 # Print vs Return
 
