@@ -102,18 +102,22 @@ def divide(a, b):
   return a / b
   
 
-operation = {
+operations = {
   "+": add,
   "-": substract,
   "*": multiply,
   "/": divide
 }
 first_number = input("What's the first number?: ")
-next_number = input("What's the next number?: ")
+second_number = input("What's the second number?: ")
 for symbol in operation:
   print(symbol)
-operation_symbol = input("Pick an operation: ")
+operation_symbol = input("Pick an operation from the line above: ")
+calculation_function = operations[operation_symbol]
+answer = calculation_function(first_number, second_number)
 
+
+print(f"{first_number} {operation_symbol} {second_number} = {answer}")
 
 
 # Print vs Return
