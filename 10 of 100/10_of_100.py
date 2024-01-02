@@ -80,14 +80,14 @@ def format_name(f_name, l_name):
   formated_l_name = l_name.title()
   return f"Ressult: {formated_f_name}{formated_l_name}"  
 
-
+format_name()
 
 
 # Calculator Part 1 - Combining Dictionaries and Functions
 
-
-
-
+first_number = input("What's the first number?: ")
+operation = input("Pick an operation: ")
+next_number = input("What's the next number?: ")
 
 # Print vs Return
 
