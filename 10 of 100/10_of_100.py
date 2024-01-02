@@ -101,17 +101,18 @@ def multiply(a, b):
 def divide(a, b):
   return a / b
   
-
+#Operants
 operations = {
   "+": add,
   "-": substract,
   "*": multiply,
   "/": divide
 }
+
 first_number = input("What's the first number?: ")
-second_number = input("What's the second number?: ")
-for symbol in operation:
+for symbol in operations:
   print(symbol)
+second_number = input("What's the second number?: ")
 operation_symbol = input("Pick an operation from the line above: ")
 calculation_function = operations[operation_symbol]
 answer = calculation_function(first_number, second_number)
