@@ -85,10 +85,6 @@ format_name()
 
 # Calculator Part 1 - Combining Dictionaries and Functions
 
-first_number = input("What's the first number?: ")
-operation = input("Pick an operation: ")
-next_number = input("What's the next number?: ")
-
 #Add
 def add(a, b):
   a + b
@@ -105,6 +101,20 @@ def multiply(a, b):
 def divide(a, b):
   return a / b
   
+
+operation = {
+  "+": add,
+  "-": substract,
+  "*": multiply,
+  "/": divide
+}
+first_number = input("What's the first number?: ")
+next_number = input("What's the next number?: ")
+for symbol in operation:
+  print(symbol)
+operation_symbol = input("Pick an operation: ")
+
+
 
 # Print vs Return
 
