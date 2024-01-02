@@ -59,8 +59,18 @@ print(days)
 
 # Docstring
 
+#Storing output in a variable
+formatted_name = format_name(input("Your first name: "),input("Your last name: "))
+print(format_name)
+
+#Or printing output directly
+print(format_name(input("What is your first name? "),input("What is your last name? ")
+))
+
+#Already used functions with outputs.
 lentgth = len(formatted_name)
 
+#Return as an early exit
 def format_name(f_name, l_name):
   """Take a first and last name and format it 
   to return the title case version of the name."""
