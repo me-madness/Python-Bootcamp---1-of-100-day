@@ -172,6 +172,50 @@ print(f"{first_number} {operation_symbol} {second_number} = {second_answer}")
 # While Looops, Flags and Recursion
 
 
+#Add
+def add(a, b):
+  a + b
+
+#Substract
+def substract(a, b):
+  return a - b
+
+#Multiply
+def multiply(a, b):
+  return a * b
+
+#Divide
+def divide(a, b):
+  return a / b
+  
+#Operants
+operations = {
+  "+": add,
+  "-": substract,
+  "*": multiply,
+  "/": divide
+}
+
+first_number = input("What's the first number?: ")
+for symbol in operations:
+  print(symbol)
+second_number = input("What's the second number?: ")
+operation_symbol = input("Pick an operation from the line above: ")
+calculation_function = operations[operation_symbol]
+first_answer = calculation_function(first_number, second_number)
+
+
+print(f"{first_number} {operation_symbol} {second_number} = {first_answer}")
+
+
+
+operation_symbol = input("Pick an operation from the line above: ")
+third_number = input("What's the next number?: ")
+calculation_function = operations[operation_symbol]
+second_answer = calculation_function(calculation_function(first_number, second_number), third_number)
+
+print(f"{first_number} {operation_symbol} {second_number} = {second_answer}")
+
 
 
 
