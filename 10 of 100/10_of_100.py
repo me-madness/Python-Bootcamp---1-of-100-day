@@ -161,7 +161,9 @@ print(f"{first_number} {operation_symbol} {second_number} = {answer}")
 
 
 
-
+operation_symbol = input("Pick an operation from the line above: ")
+third_number = input("What's the next number?: ")
+calculation_function = operations[operation_symbol]
 
 
 # While Looops, Flags and Recursion
