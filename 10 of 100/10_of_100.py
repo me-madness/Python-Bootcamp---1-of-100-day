@@ -215,7 +215,7 @@ calculation_function = operations[operation_symbol]
 second_answer = calculation_function(calculation_function(first_number, second_number), third_number)
 
 print(f"{first_number} {operation_symbol} {second_number} = {second_answer}")
-
+print("new commit")
 
 
 
