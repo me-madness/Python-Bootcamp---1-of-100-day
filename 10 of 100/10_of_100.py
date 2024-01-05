@@ -216,7 +216,7 @@ second_answer = calculation_function(calculation_function(first_number, second_n
 
 print(f"{first_number} {operation_symbol} {second_number} = {second_answer}")
 print("new commit")
-
+print("second commit")
 
 
 # Calculator Finishing Touches and Bug Fixes
