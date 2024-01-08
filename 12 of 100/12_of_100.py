@@ -1,6 +1,10 @@
 #Namespaces: Local vs. Global scope
 
-
+def namespaces(name):
+    print("Namespaces")
+    
+    
+namespaces(name = "")    
 
 
 
